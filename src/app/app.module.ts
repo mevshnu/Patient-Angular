@@ -17,6 +17,10 @@ component:PatientSearchComponent},
 {
 path:"delete",
 component:PatientDeleteComponent
+},
+{
+  path:"view",
+  component:ViewPatientComponent
 }
 ]
 
