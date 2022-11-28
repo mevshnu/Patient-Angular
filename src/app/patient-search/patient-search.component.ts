@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class PatientSearchComponent {
 
+  id=""
+  eventSearch=()=>
+  {
+    let data:any={
+      "id":this.id
+    }
+    console.log(data)
+  }
+
 }

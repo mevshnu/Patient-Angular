@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./patient-delete.component.css']
 })
 export class PatientDeleteComponent {
+  id=""
+  eventDelete=()=>
+  {
+    let data1:any={
+      "id":this.id
+    }
+    console.log(data1)
+  }
 
 }
